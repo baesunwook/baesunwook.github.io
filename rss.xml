@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Infotalk 정보 공유 커뮤니티</title>
+    <link>https://infotalk.netlify.app/</link>
+    <description>Infotalk는 정보 공유와 소통을 위한 커뮤니티입니다.</description>
+    <language>ko</language>
+    <lastBuildDate>Mon, 22 Jan 2025 09:00:00 +0900</lastBuildDate>
+
+    <item>
+      <title>Infotalk 커뮤니티 오픈</title>
+      <link>https://infotalk.netlify.app/</link>
+      <guid>https://infotalk.netlify.app/</guid>
+      <pubDate>Mon, 22 Jan 2025 09:00:00 +0900</pubDate>
+      <description><![CDATA[
+        Infotalk 커뮤니티가 공식 오픈되었습니다.
+      ]]></description>
+    </item>
+
+  </channel>
+</rss>
