@@ -17,13 +17,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "Infotalk 정보 공유 커뮤니티"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : "https://baesunwook.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+name                     : "Infotalk"
+description              : "Infotalk는 정보 공유와 소통을 위한 커뮤니티입니다"
+url                      : "https://infotalk.netlify.app"
+baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
