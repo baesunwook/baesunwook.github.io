@@ -1,0 +1,25 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#ogGrad)"/>
+  
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="80" fill="#ffffff" text-anchor="middle" font-weight="bold">
+    Infotalk
+  </text>
+  
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="48" fill="#ffffff" text-anchor="middle">
+    함께 모여 즐거운 커뮤니티
+  </text>
+  
+  <g transform="translate(600, 450)">
+    <text x="-150" y="0" font-size="80">👥</text>
+    <text x="0" y="0" font-size="80">💬</text>
+    <text x="150" y="0" font-size="80">🎉</text>
+  </g>
+</svg>

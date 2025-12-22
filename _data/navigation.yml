@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "🏠 홈"
+    url: /
+  - title: "📝 게시글"
+    url: /posts/
+  - title: "📂 카테고리"
+    url: /categories/
+  - title: "🏷️ 태그"
+    url: /tags/
+  - title: "🔍 검색"
+    url: /search/
+  - title: "ℹ️ 소개"
+    url: /about/

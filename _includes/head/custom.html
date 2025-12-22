@@ -1,0 +1,102 @@
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="icon" type="image/png" href="{{ '/assets/images/logo.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/images/logo.png' | relative_url }}">
+
+<!-- SEO Meta Tags for Korean Search Engines -->
+<meta name="keywords" content="커뮤니티, 모임, 커뮤니티 사이트, 온라인 커뮤니티, 오프라인 모임, 취미 모임, 스터디 모임, 친목 모임, 정보 공유, 소셜 네트워크, 커뮤니티 플랫폼, Infotalk">
+<meta name="author" content="Infotalk">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="googlebot" content="index, follow">
+<meta name="bingbot" content="index, follow">
+<meta name="naverobot" content="index, follow">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:site_name" content="Infotalk - 함께하는 커뮤니티 모임 플랫폼">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Infotalk - 함께하는 커뮤니티 모임 플랫폼">
+<meta name="twitter:description" content="다양한 관심사를 가진 사람들이 모여 정보를 공유하고 오프라인 모임을 즐기는 커뮤니티">
+
+<!-- Naver Verification -->
+<meta name="naver-site-verification" content="{{ site.naver_site_verification }}">
+
+<!-- JSON-LD Structured Data for Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Infotalk",
+  "alternateName": "인포톡",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/assets/images/logo.png",
+  "description": "다양한 관심사를 가진 사람들이 모여 정보를 공유하고 오프라인 모임을 즐기는 대한민국 최고의 커뮤니티 플랫폼",
+  "sameAs": [
+    "{{ site.url }}"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "info@infotalk.com",
+    "availableLanguage": ["Korean"]
+  }
+}
+</script>
+
+<!-- JSON-LD Structured Data for WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Infotalk",
+  "alternateName": "인포톡 커뮤니티",
+  "url": "{{ site.url }}",
+  "description": "취미, 스터디, 친목 등 다양한 관심사를 가진 사람들의 커뮤니티 모임 플랫폼",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ site.url }}/search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "ko-KR"
+}
+</script>
+
+<!-- JSON-LD Structured Data for Community -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "OnlineBusiness",
+  "name": "Infotalk 커뮤니티",
+  "description": "다양한 주제의 모임과 토론, 정보 공유가 이루어지는 활발한 온라인 커뮤니티",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/assets/images/logo.png",
+  "image": "{{ site.url }}/assets/images/og-image.jpg",
+  "priceRange": "무료",
+  "areaServed": {
+    "@type": "Country",
+    "name": "대한민국"
+  },
+  "availableLanguage": {
+    "@type": "Language",
+    "name": "Korean",
+    "alternateName": "ko"
+  }
+}
+</script>
+
+<!-- Additional Meta for Better SEO -->
+<meta name="theme-color" content="#667eea">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Infotalk">
+
+<!-- Preconnect to external domains for performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- end custom head snippets -->

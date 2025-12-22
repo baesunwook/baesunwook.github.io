@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#grad2)"/>
+  
+  <!-- 사람들 아이콘 -->
+  <g transform="translate(400, 250)">
+    <circle cx="-80" cy="0" r="50" fill="#fff" opacity="0.9"/>
+    <text x="-80" y="20" font-size="60" text-anchor="middle">👤</text>
+    
+    <circle cx="0" cy="-50" r="60" fill="#fff"/>
+    <text x="0" y="-10" font-size="70" text-anchor="middle">👤</text>
+    
+    <circle cx="80" cy="0" r="50" fill="#fff" opacity="0.9"/>
+    <text x="80" y="20" font-size="60" text-anchor="middle">👤</text>
+  </g>
+  
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="48" fill="#ffffff" text-anchor="middle" font-weight="bold">
+    활발한 커뮤니티
+  </text>
+  
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="32" fill="#ffffff" text-anchor="middle">
+    🎉 함께 즐거운 시간을
+  </text>
+</svg>
