@@ -1,19 +1,22 @@
-publish_mode: simple
+fields:
+  - { label: "제목", name: "title", widget: "string" }
 
-collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "_posts"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "제목", name: "title", widget: "string" }
-      - {
-          label: "URL (한 번만 작성)",
-          name: "slug",
-          widget: "string",
-          required: true,
-          hint: "영문/한글 가능, 한 번 정하면 절대 수정하지 마세요"
-        }
-      - { label: "내용", name: "body", widget: "markdown" }
+  - {
+      label: "URL (한 번만 작성)",
+      name: "slug",
+      widget: "string",
+      required: true,
+      hint: "영문/한글 가능, 한 번 정하면 절대 수정하지 마세요"
+    }
+
+  - {
+      label: "대표 이미지 (네이버/구글 썸네일)",
+      name: "thumbnail",
+      widget: "image",
+      required: true,
+      hint: "네이버 검색 썸네일로 사용됩니다 (권장 1200x630)"
+    }
+
+  - { label: "내용", name: "body", widget: "markdown" }
+
 
