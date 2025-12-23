@@ -8,6 +8,12 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "제목", name: "title", widget: "string" }
-      - { label: "URL(slug)", name: "slug", widget: "string", required: true }
+      - {
+          label: "URL (한 번만 작성)",
+          name: "slug",
+          widget: "string",
+          required: true,
+          hint: "영문/한글 가능, 한 번 정하면 절대 수정하지 마세요"
+        }
       - { label: "내용", name: "body", widget: "markdown" }
 
