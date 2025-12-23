@@ -50,5 +50,9 @@ collections:
       - { label: "제목", name: "title", widget: "string" }
       - { label: "URL (한 번만 작성)", name: "slug", widget: "string", required: true }
       - { label: "내용", name: "body", widget: "markdown" }
+      site_url: https://infotalk.netlify.app
+display_url: https://infotalk.netlify.app
+show_preview_links: true
+
 
 
