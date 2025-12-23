@@ -36,6 +36,6 @@ collections:
         name: "image"
         widget: "image"
         required: false
-        hint: "가로 1200px 이상 권장"
+        hint: "가로 600px 이상 권장"
 
       - { label: "내용", name: "body", widget: "markdown" }
