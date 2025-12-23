@@ -1,22 +1,41 @@
-fields:
-  - { label: "제목", name: "title", widget: "string" }
+publish_mode: simple
 
-  - {
-      label: "URL (한 번만 작성)",
-      name: "slug",
-      widget: "string",
-      required: true,
-      hint: "영문/한글 가능, 한 번 정하면 절대 수정하지 마세요"
-    }
+backend:
+  name: git-gateway
+  branch: master   # Netlify가 master로 배포 중이면 master, main이면 main으로 맞추세요.
 
-  - {
-      label: "대표 이미지 (네이버/구글 썸네일)",
-      name: "thumbnail",
-      widget: "image",
-      required: true,
-      hint: "네이버 검색 썸네일로 사용됩니다 (권장 600x600)"
-    }
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
-  - { label: "내용", name: "body", widget: "markdown" }
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
 
+    # ✅ 파일명에 날짜 자동 포함 → CMS에서 날짜 입력칸 필요 없어짐
+    # ✅ URL은 아래 fields.slug 값을 사용
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}"   # (공식 문서: fields.xxx 형태 지원) :contentReference[oaicite:0]{index=0}
 
+    fields:
+      - { label: "제목", name: "title", widget: "string" }
+
+      - label: "URL (한 번만 작성)"
+        name: "slug"
+        widget: "string"
+        required: true
+        hint: "예: 수원찬스나이트 / 수원찬스돔나이트-총정리  (저장 후 절대 변경하지 마세요)"
+
+      - label: "메타디스크립션(네이버 설명)"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "검색결과에 노출될 요약문(80~150자 추천)"
+
+      - label: "대표 썸네일(네이버/카톡 공유 이미지)"
+        name: "image"
+        widget: "image"
+        required: false
+        hint: "가로 1200px 이상 권장"
+
+      - { label: "내용", name: "body", widget: "markdown" }
