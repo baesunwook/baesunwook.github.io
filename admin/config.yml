@@ -14,7 +14,7 @@ fields:
       name: "thumbnail",
       widget: "image",
       required: true,
-      hint: "네이버 검색 썸네일로 사용됩니다 (권장 1200x630)"
+      hint: "네이버 검색 썸네일로 사용됩니다 (권장 1200x1200)"
     }
 
   - { label: "내용", name: "body", widget: "markdown" }
