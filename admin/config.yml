@@ -53,6 +53,18 @@ collections:
       site_url: https://infotalk.netlify.app
 display_url: https://infotalk.netlify.app
 show_preview_links: true
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "{{slug}}/"
+    fields:
+      - { label: "제목", name: "title", widget: "string" }
+      - { label: "URL (한 번만 작성)", name: "slug", widget: "string", required: true }
+      - { label: "내용", name: "body", widget: "markdown" }
+
 
 
 
